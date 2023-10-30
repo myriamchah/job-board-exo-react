@@ -7,17 +7,18 @@ header {
   width: 100%;
   padding: 16px;
   text-align: center;
+  position: fixed;
+  z-index: 1;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 42px;
   color: white;
 }
 
 .jobs-layout {
-  background-color: blue;
   margin: 0 auto;
-  padding: 80px;
+  padding: 160px 80px 80px 80px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -25,12 +26,51 @@ h1 {
 }
 
 .job-card {
-  background-color: red;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-shrink: 0;
   padding: 16px;
+}
+
+.job-card p {
+  font-size: 24px;
+}
+
+.job-card.pink {
+  border: 5px solid lightpink;
+}
+
+.job-card.purple {
+  border: 5px solid plum;
+}
+
+.job-card.green {
+  border: 5px solid lightgreen;
+}
+
+.job-card.cyan {
+  border: 5px solid lightcyan;
+}
+
+.job-card.blue {
+  border: 5px solid lightgoldenrodyellow;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+  padding: 32px;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  margin: 0 3px;
 }
