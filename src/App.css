@@ -51,11 +51,11 @@ h1 {
   border: 5px solid lightgreen;
 }
 
-.job-card.cyan {
-  border: 5px solid lightcyan;
+.job-card.blue {
+  border: 5px solid lightskyblue;
 }
 
-.job-card.blue {
+.job-card.yellow {
   border: 5px solid lightgoldenrodyellow;
 }
 
